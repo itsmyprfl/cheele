@@ -1,0 +1,468 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #140132;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+body .header {
+  margin-top: 20px;
+}
+body .header .navbar {
+  display: flex;
+}
+body .header .navbar .menu {
+  padding-left: 90px;
+  padding-right: 90px;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 18px;
+  align-items: center;
+}
+body .header .navbar .menu .menubar {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: normal;
+  color: #5E636E;
+  cursor: pointer;
+}
+body .header .navbar .menu .menubar:hover {
+  color: #01FFC2;
+  font-weight: 700;
+}
+body .header .navbar .category {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+  align-items: center;
+}
+body .header .navbar .category .cheel {
+  display: flex;
+  align-items: center;
+}
+body .header .navbar .category .cheel .text {
+  margin-left: 5px;
+}
+body .header .navbar .category .cheel .text p {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: normal;
+  color: #E5F7FF;
+}
+body .header .navbar .category .cheel .text h6 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: normal;
+  color: white;
+  align-items: center;
+}
+body .header .navbar .category .cheel .up {
+  margin-left: 2px;
+  margin-top: 10px;
+}
+body .header .navbar .category .lee {
+  display: flex;
+  align-items: center;
+}
+body .header .navbar .category .lee .text {
+  margin-left: 5px;
+  align-items: center;
+}
+body .header .navbar .category .lee .text p {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: normal;
+  color: #E5F7FF;
+}
+body .header .navbar .category .lee .text h6 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: normal;
+  color: white;
+  align-items: center;
+}
+body .header .navbar .category .lee img {
+  margin-left: 2px;
+  margin-top: 10px;
+}
+body .header .navbar .category .btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(113, 86, 253, 0.2);
+  cursor: pointer;
+}
+body .header .navbar .category p {
+  display: flex;
+  color: #5E636E;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+body .header .navbar .category p span {
+  margin-left: 5px;
+}
+body .header .header-title {
+  width: 100%;
+  height: 750px;
+  background-image: url("./Assets/image.svg");
+  background-repeat: no-repeat;
+  background-position-y: 20px;
+  background-position-x: -20px;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+body .header .header-title .title {
+  align-items: center;
+}
+body .header .header-title .title h1 {
+  padding-top: 180px;
+  font-weight: 900;
+  font-size: 55px;
+  line-height: normal;
+  color: #FCFCFD;
+}
+body .header .header-title .title h1 span {
+  color: #01FFC2;
+}
+body .header .header-title .title p {
+  font-weight: 700;
+  font-size: 25px;
+  color: #FCFCFD;
+  line-height: 38px;
+}
+body .header .header-title .title .preregistration {
+  margin-top: 100px;
+}
+body .header .header-title .title .preregistration img {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  background-color: rgba(113, 86, 253, 0.2);
+  cursor: pointer;
+}
+body .header .header-title .title .preregistration h5 {
+  margin-top: 10px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+body .header .header-title .icons {
+  margin-top: 100px;
+  margin-bottom: 250px;
+  display: grid;
+}
+body .header .header-title .icons img {
+  margin-top: 20px;
+  cursor: pointer;
+}
+body .mission {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+body .mission h1 {
+  font-weight: 900;
+  font-size: 68px;
+  line-height: normal;
+  color: #FCFCFD;
+}
+body .mission h1 span {
+  color: #01FFC2;
+}
+body .mission .title-first {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+body .mission .title-first p {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  color: #FCFCFD;
+}
+body .mission .title-first p span {
+  font-weight: 700;
+}
+body .mission h2 {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #FCFCFD;
+}
+body .mission h2 span:first-child {
+  color: #01FFC2;
+}
+body .mission h2 span:last-child {
+  color: #FFF;
+}
+body .mission .title-second {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+body .mission .title-second p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  color: #FCFCFD;
+}
+body .mission .title-second p span {
+  font-weight: 700;
+}
+body .mission .title-third {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+body .mission .title-third p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  color: #FCFCFD;
+}
+body .mission .title-third p span {
+  font-weight: 700;
+}
+body .nft {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+body .nft .steps {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  background-image: url("./Assets/image-2.svg");
+  background-repeat: no-repeat;
+  background-position-y: 220px;
+  background-size: 700px;
+  height: 1200px;
+  position: relative;
+}
+body .nft .steps .first h2 {
+  color: rgba(113, 86, 253, 0.2);
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 80px;
+}
+body .nft .steps .first h5 {
+  color: #FCFCFD;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+}
+body .nft .steps .first h5 span {
+  color: #01FFC2;
+}
+body .nft .steps .second {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+body .nft .steps .second h2 {
+  color: rgba(113, 86, 253, 0.2);
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 80px;
+}
+body .nft .steps .second h5 {
+  color: #FCFCFD;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+}
+body .nft .steps .second h5 span {
+  color: #01FFC2;
+}
+body .nft .steps .third h2 {
+  color: rgba(113, 86, 253, 0.2);
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 80px;
+}
+body .nft .steps .third h5 {
+  color: #FCFCFD;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+}
+body .nft .steps .third h5 span {
+  color: #01FFC2;
+}
+body .nft .steps .third p {
+  margin-top: 10px;
+  color: #FCFCFD;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+}
+body .nft .steps .fourth {
+  position: absolute;
+  right: 155px;
+  top: 500px;
+}
+body .nft .steps .fourth h2 {
+  color: rgba(113, 86, 253, 0.2);
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 80px;
+}
+body .nft .steps .fourth h5 {
+  color: #FCFCFD;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+}
+body .nft .steps .fourth h5 span {
+  color: #01FFC2;
+}
+body .nft .steps .fifthy {
+  position: absolute;
+  top: 740px;
+  right: 35px;
+}
+body .nft .steps .fifthy h2 {
+  color: rgba(113, 86, 253, 0.2);
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 80px;
+}
+body .nft .steps .fifthy h5 {
+  color: #FCFCFD;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+}
+body .nft .steps .fifthy h5 span {
+  color: #01FFC2;
+}
+body .nft .steps .fifthy p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #FCFCFD;
+  line-height: 33px;
+  margin-top: 10px;
+}
+body .nft .steps .fifthy p span {
+  font-weight: 700;
+}
+body .boxes {
+  margin-top: 135px;
+  margin-bottom: 10px;
+  position: relative;
+}
+body .boxes .first-box {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-image: url("./Assets/box.svg");
+  background-repeat: no-repeat;
+  background-position-x: 770px;
+  height: 300px;
+}
+body .boxes .first-box h1 {
+  font-weight: 900;
+  font-size: 62px;
+  line-height: normal;
+  color: #FCFCFD;
+}
+body .boxes .first-box h1 span {
+  color: #01FFC2;
+}
+body .boxes .first-box p {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FCFCFD;
+  line-height: 33px;
+}
+body .boxes .arrow-left {
+  position: absolute;
+  top: 402px;
+  left: 350px;
+}
+body .boxes .second-box {
+  margin-top: 110px;
+  width: 100%;
+  height: 200px;
+  border: 1px solid #7156FB;
+  border-radius: 50px;
+  background: linear-gradient(180deg, rgba(113, 86, 251, 0.2) 0%, rgba(255, 13, 255, 0.2) 100%);
+}
+body .boxes .second-box .text {
+  padding: 60px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+body .boxes .second-box .text h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #FCFCFD;
+  margin-top: 20px;
+}
+body .boxes .second-box .text h3 span {
+  color: #01FFC2;
+}
+body .boxes .second-box .text button {
+  padding: 28px 40px;
+  background-color: #7156FB;
+  border-radius: 40px;
+  border: none;
+  color: #FCFCFD;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: normal;
+  cursor: pointer;
+}
+body .boxes .arrow-right {
+  position: absolute;
+  top: 600px;
+  right: 340px;
+}
+body .product {
+  padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  position: relative;
+}
+body .product .platform {
+  margin-top: 240px;
+}
+body .product .platform h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  color: #FCFCFD;
+}
+body .product .platform h3 span {
+  color: #01FFC2;
+}
+body .product .platform p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  color: #FCFCFD;
+  margin-top: 20px;
+}
+body .product img {
+  width: 880px;
+  position: absolute;
+  right: -50px;
+}/*# sourceMappingURL=index.css.map */
